@@ -1,0 +1,1076 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Automation>
+	<Execution>
+
+		<!-- Rows for the LoginWithValidCredientials test -->
+		<LoginWithValidCredientials>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Products</message>
+		</LoginWithValidCredientials>
+		<LoginWithValidCredientials>
+			<url>https://www.saucedemo.com/</url>
+			<username>locked_out_user</username>
+			<password>secret_sauce</password>
+			<message>Products</message>
+		</LoginWithValidCredientials>
+		<LoginWithValidCredientials>
+			<url>https://www.saucedemo.com/</url>
+			<username>problem_user</username>
+			<password>secret_sauce</password>
+			<message>Products</message>
+		</LoginWithValidCredientials>
+		<LoginWithValidCredientials>
+			<url>https://www.saucedemo.com/</url>
+			<username>performance_glitch_user</username>
+			<password>secret_sauce</password>
+			<message>Products</message>
+		</LoginWithValidCredientials>
+		<LoginWithValidCredientials>
+			<url>https://www.saucedemo.com/</url>
+			<username>error_user</username>
+			<password>secret_sauce</password>
+			<message>Products</message>
+		</LoginWithValidCredientials>
+		<LoginWithValidCredientials>
+			<url>https://www.saucedemo.com/</url>
+			<username>visual_user</username>
+			<password>secret_sauce</password>
+			<message>Products</message>
+		</LoginWithValidCredientials>
+
+
+
+		<!-- Rows for the LoginWithInvalidCredientials test -->
+		<LoginWithInvalidCredientials>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user1</username>
+			<password>secret_sauce</password>
+			<Errormessage>Epic sadface: Username and password do not match any user in this service</Errormessage>
+		</LoginWithInvalidCredientials>
+		<LoginWithInvalidCredientials>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce1</password>
+			<Errormessage>Epic sadface: Username and password do not match any user in this service</Errormessage>
+		</LoginWithInvalidCredientials>
+		<LoginWithInvalidCredientials>
+			<url>https://www.saucedemo.com/</url>
+			<username></username>
+			<password></password>
+			<Errormessage>Epic sadface: Username is required</Errormessage>
+		</LoginWithInvalidCredientials>
+
+
+
+		<!-- Rows for the HomePageProductText test -->
+		<HomePageProductText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Sauce Labs Backpack</message>
+		</HomePageProductText>
+		<HomePageProductText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Sauce Labs Bike Light</message>
+		</HomePageProductText>
+		<HomePageProductText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Sauce Labs Bolt T-Shirt</message>
+		</HomePageProductText>
+		<HomePageProductText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Sauce Labs Fleece Jacket</message>
+		</HomePageProductText>
+		<HomePageProductText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Sauce Labs Onesie</message>
+		</HomePageProductText>
+		<HomePageProductText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Test.allTheThings() T-Shirt (Red)</message>
+		</HomePageProductText>
+
+
+
+		<!-- Rows for the AddToCartPage test -->
+		<AddToCartPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Sauce Labs Backpack</message>
+		</AddToCartPage>
+		<AddToCartPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Sauce Labs Bike Light</message>
+		</AddToCartPage>
+		<AddToCartPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Sauce Labs Bolt T-Shirt</message>
+		</AddToCartPage>
+		<AddToCartPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Sauce Labs Fleece Jacket</message>
+		</AddToCartPage>
+		<AddToCartPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Sauce Labs Onesie</message>
+		</AddToCartPage>
+		<AddToCartPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Test.allTheThings() T-Shirt (Red)</message>
+		</AddToCartPage>
+
+
+
+		<!-- Rows for the SortHighToLow test -->
+		<SortHighToLow>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Products</message>
+			<sort>Price (high to low)</sort>
+		</SortHighToLow>
+
+
+		<!-- Rows for the SortLowToHigh test -->
+		<SortLowToHigh>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Products</message>
+			<sort>Price (low to high)</sort>
+		</SortLowToHigh>
+
+
+		<!-- Rows for the SortAToZ test -->
+		<SortAToZ>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Products</message>
+			<sort>Name (A to Z)</sort>
+		</SortAToZ>
+
+
+		<!-- Rows for the SortZToA test -->
+		<SortZToA>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Products</message>
+			<sort>Name (Z to A)</sort>
+		</SortZToA>
+
+
+
+		<!-- Rows for the CheckHomePageProductRemoveButtonText test -->
+		<CheckHomePageProductRemoveButtonText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-backpack']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-backpack']</removelocator>
+		</CheckHomePageProductRemoveButtonText>
+		<CheckHomePageProductRemoveButtonText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bike-light']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-bike-light']</removelocator>
+		</CheckHomePageProductRemoveButtonText>
+		<CheckHomePageProductRemoveButtonText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bolt-t-shirt']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-bolt-t-shirt']</removelocator>
+		</CheckHomePageProductRemoveButtonText>
+		<CheckHomePageProductRemoveButtonText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-fleece-jacket']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-fleece-jacket']</removelocator>
+		</CheckHomePageProductRemoveButtonText>
+		<CheckHomePageProductRemoveButtonText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-onesie']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-onesie']</removelocator>
+		</CheckHomePageProductRemoveButtonText>
+		<CheckHomePageProductRemoveButtonText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-test.allthethings()-t-shirt-(red)']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-test.allthethings()-t-shirt-(red)']</removelocator>
+		</CheckHomePageProductRemoveButtonText>
+
+
+
+		<!-- Rows for the CartIconPage test -->
+		<CartIconPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-backpack']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-backpack']</removelocator>
+			<message3>Your Cart</message3>
+		</CartIconPage>
+		<CartIconPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bike-light']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-bike-light']</removelocator>
+			<message3>Your Cart</message3>
+		</CartIconPage>
+		<CartIconPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bolt-t-shirt']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-bolt-t-shirt']</removelocator>
+			<message3>Your Cart</message3>
+		</CartIconPage>
+		<CartIconPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-fleece-jacket']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-fleece-jacket']</removelocator>
+			<message3>Your Cart</message3>
+		</CartIconPage>
+		<CartIconPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-onesie']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-onesie']</removelocator>
+			<message3>Your Cart</message3>
+		</CartIconPage>
+		<CartIconPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-test.allthethings()-t-shirt-(red)']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-test.allthethings()-t-shirt-(red)']</removelocator>
+			<message3>Your Cart</message3>
+		</CartIconPage>
+
+
+
+		<!-- Rows for the ClickOnRemoveButtonInCartIconPage test -->
+		<ClickOnRemoveButtonInCartIconPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-backpack']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-backpack']</removelocator>
+			<message3>Your Cart</message3>
+		</ClickOnRemoveButtonInCartIconPage>
+		<ClickOnRemoveButtonInCartIconPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bike-light']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-bike-light']</removelocator>
+			<message3>Your Cart</message3>
+		</ClickOnRemoveButtonInCartIconPage>
+		<ClickOnRemoveButtonInCartIconPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bolt-t-shirt']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-bolt-t-shirt']</removelocator>
+			<message3>Your Cart</message3>
+		</ClickOnRemoveButtonInCartIconPage>
+		<ClickOnRemoveButtonInCartIconPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-fleece-jacket']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-fleece-jacket']</removelocator>
+			<message3>Your Cart</message3>
+		</ClickOnRemoveButtonInCartIconPage>
+		<ClickOnRemoveButtonInCartIconPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-onesie']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-sauce-labs-onesie']</removelocator>
+			<message3>Your Cart</message3>
+		</ClickOnRemoveButtonInCartIconPage>
+		<ClickOnRemoveButtonInCartIconPage>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-test.allthethings()-t-shirt-(red)']</locator>
+			<message2>Remove</message2>
+			<removelocator>[data-test='remove-test.allthethings()-t-shirt-(red)']</removelocator>
+			<message3>Your Cart</message3>
+		</ClickOnRemoveButtonInCartIconPage>
+
+
+
+		<!-- Rows for the ContinueShopping test -->
+		<ContinueShopping>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-backpack']</locator>
+			<message2>Products</message2>
+		</ContinueShopping>
+		<ContinueShopping>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bike-light']</locator>
+			<message2>Products</message2>
+		</ContinueShopping>
+		<ContinueShopping>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bolt-t-shirt']</locator>
+			<message2>Products</message2>
+		</ContinueShopping>
+		<ContinueShopping>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-fleece-jacket']</locator>
+			<message2>Products</message2>
+		</ContinueShopping>
+		<ContinueShopping>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-onesie']</locator>
+			<message2>Products</message2>
+		</ContinueShopping>
+		<ContinueShopping>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-test.allthethings()-t-shirt-(red)']</locator>
+			<message2>Products</message2>
+		</ContinueShopping>
+
+
+
+		<!-- Rows for the CancelTheCheckout test -->
+		<CancelTheCheckout>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-backpack']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+		</CancelTheCheckout>
+		<CancelTheCheckout>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bike-light']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+		</CancelTheCheckout>
+		<CancelTheCheckout>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bolt-t-shirt']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+		</CancelTheCheckout>
+		<CancelTheCheckout>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-fleece-jacket']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+		</CancelTheCheckout>
+		<CancelTheCheckout>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-onesie']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+		</CancelTheCheckout>
+		<CancelTheCheckout>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-test.allthethings()-t-shirt-(red)']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+		</CancelTheCheckout>
+
+
+
+		<!-- Rows for the FinishWithOrder test -->
+		<FinishWithOrder>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-backpack']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Products</message4>
+		</FinishWithOrder>
+		<FinishWithOrder>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bike-light']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Products</message4>
+		</FinishWithOrder>
+		<FinishWithOrder>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bolt-t-shirt']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Products</message4>
+		</FinishWithOrder>
+		<FinishWithOrder>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-fleece-jacket']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Products</message4>
+		</FinishWithOrder>
+		<FinishWithOrder>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-onesie']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Products</message4>
+		</FinishWithOrder>
+		<FinishWithOrder>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-test.allthethings()-t-shirt-(red)']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Products</message4>
+		</FinishWithOrder>
+
+
+
+		<!-- Rows for the FinishWithNoOrder test -->
+		<FinishWithNoOrder>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-backpack']</locator>
+			<message2>Your Cart</message2>
+			<removelocator>[data-test='remove-sauce-labs-backpack']</removelocator>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Products</message4>
+		</FinishWithNoOrder>
+		<FinishWithNoOrder>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bike-light']</locator>
+			<message2>Your Cart</message2>
+			<removelocator>[data-test='remove-sauce-labs-bike-light']</removelocator>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Products</message4>
+		</FinishWithNoOrder>
+		<FinishWithNoOrder>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bolt-t-shirt']</locator>
+			<message2>Your Cart</message2>
+			<removelocator>[data-test='remove-sauce-labs-bolt-t-shirt']</removelocator>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Products</message4>
+		</FinishWithNoOrder>
+		<FinishWithNoOrder>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-fleece-jacket']</locator>
+			<message2>Your Cart</message2>
+			<removelocator>[data-test='remove-sauce-labs-fleece-jacket']</removelocator>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Products</message4>
+		</FinishWithNoOrder>
+		<FinishWithNoOrder>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-onesie']</locator>
+			<message2>Your Cart</message2>
+			<removelocator>[data-test='remove-sauce-labs-onesie']</removelocator>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Products</message4>
+		</FinishWithNoOrder>
+		<FinishWithNoOrder>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-test.allthethings()-t-shirt-(red)']</locator>
+			<message2>Your Cart</message2>
+			<removelocator>[data-test='remove-test.allthethings()-t-shirt-(red)']</removelocator>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Products</message4>
+		</FinishWithNoOrder>
+
+
+
+		<!-- Rows for the CheckOutTheProductWithNoFirstName test -->
+		<CheckOutTheProductWithNoFirstName>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-backpack']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName></FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Error: First Name is required</message4>
+		</CheckOutTheProductWithNoFirstName>
+		<CheckOutTheProductWithNoFirstName>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bike-light']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName></FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Error: First Name is required</message4>
+		</CheckOutTheProductWithNoFirstName>
+		<CheckOutTheProductWithNoFirstName>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bolt-t-shirt']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName></FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Error: First Name is required</message4>
+		</CheckOutTheProductWithNoFirstName>
+		<CheckOutTheProductWithNoFirstName>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-fleece-jacket']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName></FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Error: First Name is required</message4>
+		</CheckOutTheProductWithNoFirstName>
+		<CheckOutTheProductWithNoFirstName>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-onesie']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName></FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Error: First Name is required</message4>
+		</CheckOutTheProductWithNoFirstName>
+		<CheckOutTheProductWithNoFirstName>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-test.allthethings()-t-shirt-(red)']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName></FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Error: First Name is required</message4>
+		</CheckOutTheProductWithNoFirstName>
+
+
+
+		<!-- Rows for the CheckOutTheProductWithNoLastName test -->
+		<CheckOutTheProductWithNoLastName>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-backpack']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName></LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Error: Last Name is required</message4>
+		</CheckOutTheProductWithNoLastName>
+		<CheckOutTheProductWithNoLastName>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bike-light']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName></LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Error: Last Name is required</message4>
+		</CheckOutTheProductWithNoLastName>
+		<CheckOutTheProductWithNoLastName>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bolt-t-shirt']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName></LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Error: Last Name is required</message4>
+		</CheckOutTheProductWithNoLastName>
+		<CheckOutTheProductWithNoLastName>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-fleece-jacket']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName></LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Error: Last Name is required</message4>
+		</CheckOutTheProductWithNoLastName>
+		<CheckOutTheProductWithNoLastName>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-onesie']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName></LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Error: Last Name is required</message4>
+		</CheckOutTheProductWithNoLastName>
+		<CheckOutTheProductWithNoLastName>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-test.allthethings()-t-shirt-(red)']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName></LastName>
+			<PostalCode>75840</PostalCode>
+			<message4>Error: Last Name is required</message4>
+		</CheckOutTheProductWithNoLastName>
+
+
+
+		<!-- Rows for the CheckOutTheProductWithNoPostalCode test -->
+		<CheckOutTheProductWithNoPostalCode>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-backpack']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode></PostalCode>
+			<message4>Error: Postal Code is required</message4>
+		</CheckOutTheProductWithNoPostalCode>
+		<CheckOutTheProductWithNoPostalCode>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bike-light']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode></PostalCode>
+			<message4>Error: Postal Code is required</message4>
+		</CheckOutTheProductWithNoPostalCode>
+		<CheckOutTheProductWithNoPostalCode>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-bolt-t-shirt']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode></PostalCode>
+			<message4>Error: Postal Code is required</message4>
+		</CheckOutTheProductWithNoPostalCode>
+		<CheckOutTheProductWithNoPostalCode>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-fleece-jacket']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode></PostalCode>
+			<message4>Error: Postal Code is required</message4>
+		</CheckOutTheProductWithNoPostalCode>
+		<CheckOutTheProductWithNoPostalCode>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-sauce-labs-onesie']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode></PostalCode>
+			<message4>Error: Postal Code is required</message4>
+		</CheckOutTheProductWithNoPostalCode>
+		<CheckOutTheProductWithNoPostalCode>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Add to cart</message1>
+			<locator>[data-test='add-to-cart-test.allthethings()-t-shirt-(red)']</locator>
+			<message2>Your Cart</message2>
+			<message3>Checkout: Your Information</message3>
+			<FirstName>Muhammad</FirstName>
+			<LastName>Rehman</LastName>
+			<PostalCode></PostalCode>
+			<message4>Error: Postal Code is required</message4>
+		</CheckOutTheProductWithNoPostalCode>
+
+
+
+		<!-- Rows for the SocialMedia test -->
+		<SocialMedia>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Products</message>
+			<locator>[data-test='social-twitter']</locator>
+			<web>x.com</web>
+		</SocialMedia>
+		<SocialMedia>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Products</message>
+			<locator>[data-test='social-facebook']</locator>
+			<web>facebook.com</web>
+		</SocialMedia>
+		<SocialMedia>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message>Products</message>
+			<locator>[data-test='social-linkedin']</locator>
+			<web>linkedin.com</web>
+		</SocialMedia>
+
+
+
+		<!-- Rows for the SideBarItems test -->
+		<SideBarItems>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Products</message1>
+			<message2>All Items</message2>
+		</SideBarItems>
+
+
+
+		<!-- Rows for the AboutPageMainTitle test -->
+		<AboutPageMainTitle>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Products</message1>
+			<message2>The World's Only Full-Lifecycle AI-Quality Platform</message2>
+		</AboutPageMainTitle>
+
+
+
+		<!-- Rows for the AboutPageHeaderMainTitle test -->
+		<AboutPageHeaderMainTitle>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Products</message1>
+			<message2>Sauce AI for Test Authoring: Move from intent to execution in minutes.</message2>
+		</AboutPageHeaderMainTitle>
+
+
+
+		<!-- Rows for the AboutPageHeaderLinkTitle test -->
+		<AboutPageHeaderLinkTitle>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Products</message1>
+			<message2>Learn More</message2>
+		</AboutPageHeaderLinkTitle>
+
+
+
+		<!-- Rows for the ClickOnLearnMore test -->
+		<ClickOnLearnMore>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Products</message1>
+			<message2>Sauce AI for Test Authoring</message2>
+		</ClickOnLearnMore>
+
+
+
+		<!-- Rows for the ClickOnAboutPageHeaderCross test -->
+		<ClickOnAboutPageHeaderCross>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Products</message1>
+			<message2>The World's Only Full-Lifecycle AI-Quality Platform</message2>
+			<cross>x</cross>
+			<message3>Built for enterprise engineering teams, Sauce AI agents auto-generate, execute, debug and autonomously update tests — delivering 38% more productivity, 75% reduction in critical issues, and 46% higher ship frequency.</message3>
+		</ClickOnAboutPageHeaderCross>
+
+
+
+		<!-- Rows for the AboutPageSignUpButtonText test -->
+		<AboutPageSignUpButtonText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Products</message1>
+			<message2>Sign up for free</message2>
+		</AboutPageSignUpButtonText>
+
+
+
+		<!-- Rows for the AboutPageDemoButtonText test -->
+		<AboutPageDemoButtonText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Products</message1>
+			<message2>Book a demo</message2>
+		</AboutPageDemoButtonText>
+
+
+
+		<!-- Rows for the ClickOnAboutPageSignUpButton test -->
+		<ClickOnAboutPageSignUpButton>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Products</message1>
+			<message2>Sign up for free</message2>
+			<message3>Start testing in minutes</message3>
+		</ClickOnAboutPageSignUpButton>
+
+
+
+		<!-- Rows for the ClickOnAboutPageDemoButton test -->
+		<ClickOnAboutPageDemoButton>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Products</message1>
+			<message2>Book a demo</message2>
+			<message3>Talk to an Expert</message3>
+		</ClickOnAboutPageDemoButton>
+
+
+
+		<!-- Rows for the CheckAboutPageLearnMoreAboutIntegrationsText test -->
+		<CheckAboutPageLearnMoreAboutIntegrationsText>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Products</message1>
+			<message2>The World's Only Full-Lifecycle AI-Quality Platform</message2>
+			<message3>Learn more about integrations</message3>
+		</CheckAboutPageLearnMoreAboutIntegrationsText>
+
+
+
+		<!-- Rows for the ClickOnAboutPageLearnMoreAboutIntegrationsButton test -->
+		<ClickOnAboutPageLearnMoreAboutIntegrationsButton>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Products</message1>
+			<message2>The World's Only Full-Lifecycle AI-Quality Platform</message2>
+			<message3>Learn more about integrations</message3>
+			<message4>Sauce Labs integrates with the best tools for CI/CD, automated testing, team collaboration, and more</message4>
+		</ClickOnAboutPageLearnMoreAboutIntegrationsButton>
+
+
+
+		<!-- Rows for the Logout test -->
+		<Logout>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+			<message1>Products</message1>
+			<message2>Swag Labs</message2>
+		</Logout>
+	</Execution>
+</Automation>
