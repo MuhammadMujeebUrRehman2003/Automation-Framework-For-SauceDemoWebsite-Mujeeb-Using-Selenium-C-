@@ -1,7 +1,7 @@
 # 🚀 Selenium Test Automation Project (C# | NUnit | POM)
 
 <div align="center">
-
+--
 ![Selenium](https://img.shields.io/badge/Selenium-Automation-43B02A?style=for-the-badge\&logo=selenium\&logoColor=white)
 ![C#](https://img.shields.io/badge/CSharp-.NET-239120?style=for-the-badge\&logo=csharp\&logoColor=white)
 ![NUnit](https://img.shields.io/badge/NUnit-Testing_Framework-6A1B9A?style=for-the-badge)
