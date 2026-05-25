@@ -92,10 +92,6 @@
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&stroke=39FF14&ring=39FF14&fire=00FFF5&currStreakLabel=39FF14" />
 
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&icon_color=39FF14&title_color=39FF14&text_color=d0e8d0" />
-
 </div>
 
 ---
