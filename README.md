@@ -1,11 +1,86 @@
-# 🚀 Selenium Test Automation Project (C# | NUnit | POM)
+<div align="center">
+
+<!-- ANIMATED HEADER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080C10,50:39FF14,100:00FFF5&height=200&section=header&text=Selenium%20Test%20Automation&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=C%23%20%7C%20NUnit%20%7C%20Page%20Object%20Model&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+
+<!-- ROLE TAG -->
+### `🖥️ QA Automation Engineer`
+
+<!-- TECH BADGES -->
+![Selenium](https://img.shields.io/badge/Selenium-Automation-39FF14?style=for-the-badge&logo=selenium&logoColor=black)
+![C#](https://img.shields.io/badge/C%23-.NET-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![NUnit](https://img.shields.io/badge/NUnit-Testing_Framework-9B59FF?style=for-the-badge&logo=dotnet&logoColor=white)
+![ExtentReports](https://img.shields.io/badge/ExtentReports-Reporting-FF6F00?style=for-the-badge)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-IDE-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)
+
+<br/>
+
+<!-- TYPING ANIMATION -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=18&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&multiline=true&width=700&height=80&lines=Automating+Sauce+Demo+%7C+Swag+Labs+Website;Building+Robust+%26+Scalable+Test+Frameworks;Real-World+QA+Automation+Practices" alt="Typing SVG" />
+</a>
+
+</div>
+
+---
+
+## 📌 Project Overview
+
+> **`›`** Successfully **automated the Sauce Demo (Swag Labs)** website using **Selenium with C#**.
+> This project marks a key milestone in applying **real-world software test automation practices**,
+> focusing on building a **robust, scalable, and maintainable automation framework**
+> using industry-standard design patterns and tooling.
+
+---
+
+## 🏗️ Key Features Implemented
 
 <div align="center">
-  
-![Selenium](https://img.shields.io/badge/Selenium-Automation-43B02A?style=for-the-badge\&logo=selenium\&logoColor=white)
-![C#](https://img.shields.io/badge/CSharp-.NET-239120?style=for-the-badge\&logo=csharp\&logoColor=white)
-![NUnit](https://img.shields.io/badge/NUnit-Testing_Framework-6A1B9A?style=for-the-badge)
-![ExtentReports](https://img.shields.io/badge/ExtentReports-Reporting-FF6F00?style=for-the-badge)
+
+| 🗂️ Feature | 📋 Description |
+|:---:|:---|
+| **Page Object Model (POM)** | Clean architecture · Reusability · Scalability · Separation of concerns |
+| **Data-Driven Testing** | Multiple dataset execution · Better coverage · Parameterised test flows |
+| **Hierarchical Test Structure** | Organised test layers · Improved maintainability · Logical grouping |
+| **Alert Handling & Sync** | Dynamic element handling · Stable execution · Smart waits & retries |
+| **NUnit Framework** | Test execution management · Assertions · Setup & teardown lifecycle |
+| **Extent Reports** | Interactive HTML reports · Better analysis · Pass/Fail screenshots |
+
+</div>
+
+---
+
+## 📊 Skill Proficiency Overview
+
+```text
+╔══════════════════════════════════════════════════════════════╗
+║  SKILL PROFICIENCY MATRIX                                    ║
+╠══════════════════════════════════════════════════════════════╣
+║  Selenium WebDriver    ████████████████████░░  90%  ★★★★★  ║
+║  POM Framework         ████████████████████░░  90%  ★★★★★  ║
+║  C# Automation         ██████████████████░░░░  85%  ★★★★☆  ║
+║  NUnit Testing         ████████████████░░░░░░  80%  ★★★★☆  ║
+║  API Testing           ███████████████░░░░░░░  75%  ★★★★☆  ║
+║  CI/CD Knowledge       ██████████████░░░░░░░░  70%  ★★★☆☆  ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 🧠 Tools & Technologies
+
+<div align="center">
+
+![C#](https://img.shields.io/badge/C%23-Expert-39FF14?style=flat-square&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium_WebDriver-4.x-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![NUnit](https://img.shields.io/badge/NUnit-3.x-9B59FF?style=flat-square)
+![ExtentReports](https://img.shields.io/badge/ExtentReports-v5-FF6F00?style=flat-square)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-2026-5C2D91?style=flat-square&logo=visualstudio&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Source_Control-181717?style=flat-square&logo=github&logoColor=white)
+![POM](https://img.shields.io/badge/Framework-POM-00FFF5?style=flat-square)
 
 </div>
 
@@ -15,129 +90,66 @@
 
 <div align="center">
 
-</div>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&stroke=39FF14&ring=39FF14&fire=00FFF5&currStreakLabel=39FF14" />
 
-<div align="center">
+<br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-## 📌 Project Overview
-
-I’m pleased to share that I have successfully **automated the Sauce Demo (Swag Labs) website** using **Selenium with C#**.
-
-This project represents an important milestone in my journey of learning and applying **real-world software test automation practices**.
-
-It focuses on building a **robust, scalable, and maintainable automation framework** using industry-standard design patterns and tools.
-
----
-
-## 🏗️ Key Features Implemented
-
-### 🔹 Page Object Model (POM)
-
-* Clean and maintainable architecture
-* Improved reusability and scalability
-
----
-
-### 🔹 Data-Driven Testing
-
-* Multiple datasets execution
-* Better test coverage
-
----
-
-### 🔹 Hierarchical Test Structure
-
-* Organized test layers
-* Improved maintainability
-
----
-
-### 🔹 Alert Handling & Synchronization
-
-* Handled dynamic elements
-* Stable test execution
-
----
-
-### 🔹 NUnit Framework
-
-* Test execution management
-* Assertions and structuring
-
----
-
-### 🔹 Extent Reports Integration
-
-* Interactive HTML reports
-* Better test analysis
-
----
-
-## 🧠 Skills & Tools (Visual Icons)
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=cs,dotnet,selenium,visualstudio,git,github" />
-
-<br>
-
-<img src="https://img.shields.io/badge/Test_Automation-Expert-00C853?style=for-the-badge" />
-<img src="https://img.shields.io/badge/QA-Engineer-2196F3?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Framework-POM-orange?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Testing-NUnit-purple?style=for-the-badge" />
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&icon_color=39FF14&title_color=39FF14&text_color=d0e8d0" />
 
 </div>
-
----
-
-## 📊 Skill Proficiency Overview
-
-```text
-Selenium WebDriver      ██████████████████ 90%
-C# Automation           ████████████████   85%
-NUnit Testing           ███████████████    80%
-POM Framework           █████████████████  90%
-API Testing             ████████████       75%
-CI/CD Knowledge         ██████████         70%
-```
 
 ---
 
 ## 🚀 Learning Outcomes
 
-This project significantly strengthened my understanding of:
-
-* Automation framework design principles
-* Reusable coding practices
-* Selenium UI automation
-* Structured testing using NUnit
-* Real-world QA workflows
+```diff
++ Automation framework design principles
++ Reusable and clean coding practices
++ Selenium UI automation with C#
++ Structured testing methodology using NUnit
++ Real-world QA workflows and best practices
+```
 
 ---
 
-## 🚀 Future Enhancements
+## 🔮 Future Enhancements
 
-* CI/CD Integration (GitHub Actions / Jenkins)
-* Parallel Test Execution
-* API Automation Expansion
-* Cloud Testing Integration
+- [ ] 🔧 **CI/CD Integration** — GitHub Actions / Jenkins pipeline
+- [ ] ⚡ **Parallel Test Execution** — Cross-browser & multi-thread
+- [ ] 🌐 **API Automation Expansion** — REST API test coverage
+- [ ] ☁️ **Cloud Testing Integration** — BrowserStack / Sauce Labs
+
+---
+
+## 🏆 Achievements
+
+<div align="center">
+
+![Test Automation](https://img.shields.io/badge/Test_Automation-Expert-00C853?style=for-the-badge)
+![QA Engineer](https://img.shields.io/badge/QA-Engineer-2196F3?style=for-the-badge)
+![Framework](https://img.shields.io/badge/Framework-POM-FF6F00?style=for-the-badge)
+![Testing](https://img.shields.io/badge/Testing-NUnit-9B59FF?style=for-the-badge)
+
+</div>
 
 ---
 
 ## 🙏 Acknowledgement
 
-Special thanks to **Sir Haris Irfan** for guidance and mentorship in QA Automation.
+<div align="center">
+
+> 💡 Special thanks to **Sir Haris Irfan** for his invaluable guidance and mentorship throughout this QA Automation journey.
+
+</div>
 
 ---
 
 ## ⭐ Conclusion
 
-This project reflects my continuous journey in **Software Quality Assurance & Automation Testing**.
+<div align="center">
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFF5,50:39FF14,100:080C10&height=120&section=footer&text=Built%20with%20Precision%20·%20Tested%20with%20Passion&fontSize=16&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%"/>
+
+</div>
+
+> *This project reflects a continuous journey in **Software Quality Assurance & Automation Testing** — growing one test at a time.*
