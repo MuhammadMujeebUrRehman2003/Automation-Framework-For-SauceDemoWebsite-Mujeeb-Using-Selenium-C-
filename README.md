@@ -134,7 +134,11 @@
 
 <div align="center">
 
-> 💡 Special thanks to **Sir Haris Irfan** for his invaluable guidance and mentorship throughout this QA Automation journey.
+> 💡 Special thanks to my mentor and tutor
+> **[Haris Irfan](https://www.linkedin.com/in/haris-irfan-0b2480209/)**
+> for his guidance and support throughout this journey.
+> His mentorship helped me stay motivated through every failed
+> attempt and push through to a successful result.
 
 </div>
 
