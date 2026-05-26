@@ -207,6 +207,16 @@ This type of test automation framework is commonly used in:
 
 ---
 
+## 📈 Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MuhammadMujeebUrRehman2003&theme=tokyo-night&hide_border=true" width="100%" />
+
+</div>
+
+---
+
 ## 🙏 Special Thanks
 
 <div align="center">
