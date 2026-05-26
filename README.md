@@ -134,11 +134,12 @@
 
 <div align="center">
 
-> 💡 Special thanks to my mentor and tutor
+>💡 Special thanks to my mentor and tutor
 > **[Haris Irfan](https://www.linkedin.com/in/haris-irfan-0b2480209/)**
-> for his guidance and support throughout this journey.
-> His mentorship helped me stay motivated through every failed
-> attempt and push through to a successful result.
+> for his expert guidance in Software Quality Assurance & Test Automation.
+> His deep knowledge of Selenium, C#, NUnit, and the Page Object Model
+> helped me build a real-world automation framework from the ground up —
+> turning theory into structured, scalable test engineering practice.
 
 </div>
 
